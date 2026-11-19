@@ -1,0 +1,7 @@
+box: task-queues, plan: vc2-1c-1gb, region sea
+CPU(s):                                  1
+Model name:                              Intel Core Processor (Haswell, no TSX, IBRS)
+Mem:             961         538         101           1         468         423
+Debian GNU/Linux 13 (trixie)
+Python 3.13.5
+Redis server v=8.0.2 sha=00000000:0 mall

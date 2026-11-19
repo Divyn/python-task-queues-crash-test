@@ -1,0 +1,54 @@
+# speed 1 celery OK 23.51s
+# speed 1 dramatiq OK 7.10s
+# speed 1 rq OK 253.10s
+# speed 1 huey OK 9.93s
+# speed 1 taskiq OK 13.80s
+# speed 1 arq OK 50.11s
+# speed 2 dramatiq OK 7.15s
+# speed 2 rq OK 255.60s
+# speed 2 huey OK 10.02s
+# speed 2 taskiq OK 14.11s
+# speed 2 arq OK 50.12s
+# speed 2 celery OK 24.48s
+# speed 3 rq OK 256.60s
+# speed 3 huey OK 10.03s
+# speed 3 taskiq OK 14.06s
+# speed 3 arq OK 50.12s
+# speed 3 celery OK 23.61s
+# speed 3 dramatiq OK 7.25s
+# crash: killed and restarted dramatiq
+# crash: killed and restarted taskiq
+# crash: killed and restarted arq
+# crash: killed and restarted huey
+# crash: killed and restarted celery
+# crash: killed and restarted rq
+# crash 1 celery lost=5 doubled=0 KILLED
+# crash 1 dramatiq lost=16 doubled=0 KILLED
+# crash 1 rq lost=0 doubled=0 KILLED
+# crash 1 huey lost=0 doubled=0 KILLED
+# crash 1 taskiq lost=14 doubled=0 KILLED
+# crash 1 arq lost=0 doubled=0 KILLED
+# crash: killed and restarted dramatiq
+# crash: killed and restarted taskiq
+# crash: killed and restarted arq
+# crash: killed and restarted huey
+# crash: killed and restarted celery
+# crash: killed and restarted rq
+# crash 2 celery lost=5 doubled=0 KILLED
+# crash 2 dramatiq lost=16 doubled=0 KILLED
+# crash 2 rq lost=0 doubled=0 KILLED
+# crash 2 huey lost=1 doubled=0 KILLED
+# crash 2 taskiq lost=16 doubled=-1 KILLED
+# crash 2 arq lost=0 doubled=2 KILLED
+# crash: killed and restarted dramatiq
+# crash: killed and restarted taskiq
+# crash: killed and restarted arq
+# crash: killed and restarted huey
+# crash: killed and restarted celery
+# crash: killed and restarted rq
+# crash 3 celery lost=5 doubled=0 KILLED
+# crash 3 dramatiq lost=8 doubled=0 KILLED
+# crash 3 rq lost=0 doubled=0 KILLED
+# crash 3 huey lost=1 doubled=0 KILLED
+# crash 3 taskiq lost=14 doubled=0 KILLED
+# crash 3 arq lost=0 doubled=1 KILLED
